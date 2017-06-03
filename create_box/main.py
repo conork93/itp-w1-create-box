@@ -1,4 +1,4 @@
-"""This is the entry point of the program."""
+
 
 
 def create_box(height, width, character):
@@ -34,6 +34,6 @@ def hollow_box(height, width, character):
 
    
 if __name__ == '__main__':
-    #print(create_box(3, 4, '@'))
+    print(create_box(3, 4, '@'))
     print(hollow_box(5, 5, '*'))
 
